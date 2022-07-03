@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-icon{
+    position:sticky;
+    top:0;
+    background-color:#111622 ;
+    background-repeat: no-repeat;
+    padding: 20px 50px;
+    width: 100%;
+    height: 70px;
+    
+}
+
+.container{
+    background-color: #111622;
+    height :100%;
+    padding-top: 37px;
+}
+
+#format{
+    text-align: center;
+    font-size: 18px;
+     font-family:Arial, Helvetica, sans-serif;     
+}
+
+
+.log{
+    color: whitesmoke;
+    text-size-adjust: bold;
+    padding: 57px;
+    padding-right: 275px;
+}
+
+.btn{
+    font-size: 16px;
+    font-weight: bold;
+    color: #1f80e0;
+    background-color: rgba(31,127,224,0.1);
+    border:  #1f80e0 solid 1px;
+    border-radius: 5px;
+    padding: 15px 52px;
+}
+
+.field{
+    color: antiquewhite;
+    font-size: 15px;
+    margin-top: 16px;
+}
+
+.line{
+    
+    padding : 10px;
+}
+
+.field p{
+    margin-bottom: 20px;
+    color:rgba(179, 174, 174, 0.8);
+    font-weight:600;
+   
+}
+
+.number{
+    font-size:16px;
+    margin-right: 115px;
+    background-color:#111622 ;
+    border:none;
+    padding-left: 12px;
+    outline :none
+    /* color : rgba(255, 255, 255, 0.8); */
+
+}
+.mobilenumber{
+    border-bottom: 2px solid #1f80e0 ;
+    padding-bottom: 10px;
+
+}
+.pincode{
+    border-right: 1px solid #334366;
+    color: rgba(248, 242, 242, 0.8);
+    padding-right: 10px;
+}
+
+
+.footer-container{
+    display: flex;
+    margin-top: 240px;
+    font-family:Arial, Helvetica, sans-serif;  
+}
+.footer-nav{
+  display: flex;
+    flex-grow: 2;
+    padding-bottom: 50px;
+    padding-left: 45px;
+    margin-bottom: -35px;
+    
+}
+.footer-nav li{
+    list-style: none;
+}
+.footer-nav li a{
+      
+    text-decoration: none;
+     color: rgba(255, 255, 255, 0.8);
+     font-size: 14px;
+     padding-right: 20px;
+    
+}
+.footer-copywrite{
+    
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 11.5px;
+    padding-right: 150px;
+    padding-left: 45px;
+    line-height:1.8 ;
+        padding-bottom: 20px;
+}
+
+.footer-1{
+flex-grow: 1;
+color: rgba(255, 255, 255, 0.8);
+font-size: 14px;
+font-weight: bold;
+padding-right: 100px;
+white-space:nowrap;
+}
+.footer-2{
+flex-grow: 1;
+color: rgba(255, 255, 255, 0.8);
+font-size: 14px;
+font-weight: bold;
+white-space:nowrap;
+padding-right: 55px;
+}
+
+.icon{
+    padding-top: 8px;
+    color:#172235;
+    font-size: 40px;
+    padding-right: 10px;
+}
+
+/*;
+    --HEADER_COLOR:;
+    --BG_COLOR_L0: ;
+    --BG_COLOR_L1:
+3 */
+.imagess{
+    background-image: url("https://www.hotstar.com/assets/67764ffe0b6b18e06d60049a00c86335.svg");
+    height: 50px;
+    background-repeat: no-repeat;
+    min-width: 276px;
+    margin-top: 8px;
+}
